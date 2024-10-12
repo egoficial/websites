@@ -22,7 +22,7 @@ Todos os projetos contidos neste repositório estão protegidos por direitos aut
 ## Contato
 Tem um projeto em mente ou gostaria de discutir como podemos ajudar sua empresa a crescer online? Entre em contato conosco!
 
-- Website: [www.egdigitalsolutions.com](#)
+- Website: [https://egoficial.github.io/websites/egdigitalsolutions](#)
 
 ---
 
