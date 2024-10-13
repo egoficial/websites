@@ -1,1 +1,82 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  border-bottom: 1px solid white;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header section#logoContainer {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header section#logoContainer img {
+  width: 40px;
+}
+header section#linksContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header section#linksContainer ul {
+  display: flex;
+}
+header section#linksContainer ul li {
+  margin-left: 30px;
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+header section#socialContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+header section#socialContainer ul {
+  display: flex;
+}
+header section#socialContainer ul li {
+  margin-left: 20px;
+}
+
+article {
+  height: 60vh;
+}
+article section#bannerContainer {
+  height: 400px;
+  margin: 30px;
+  border-radius: 10px;
+  background-image: url("../assets/Banners/promocao.png");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+
+html, body {
+  background-image: url("../assets/background/rectangle.jpg");
+  background-size: 80px;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: monospace;
+}/*# sourceMappingURL=main.css.map */

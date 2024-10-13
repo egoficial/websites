@@ -1,0 +1,15 @@
+article {
+    height: 60vh;
+
+    section#bannerContainer {
+        height: 400px;
+        margin: 30px;
+
+        border-radius: 10px;
+        background-image: url("../assets/Banners/promocao.png");
+        background-size: cover;
+
+        background-position: center;
+        border: 1px solid white;
+    }
+}
