@@ -9,7 +9,7 @@ A **E.G Digital Solutions™** é especializada no desenvolvimento de landing pa
 Utilizamos as tecnologias mais modernas para garantir a melhor performance e qualidade dos projetos:
 
 - HTML5 / CSS3 / SCSS / JavaScript
-- Ambiente de Icones: Lucide
+- Ambiente de icones Lucide
 - Integração com APIs
 - Ferramentas de otimização SEO
 
