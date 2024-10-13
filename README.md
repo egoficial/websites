@@ -8,10 +8,10 @@ A **E.G Digital Solutions™** é especializada no desenvolvimento de landing pa
 ## Tecnologias Utilizadas
 Utilizamos as tecnologias mais modernas para garantir a melhor performance e qualidade dos projetos:
 
-- HTML5 / CSS3 / JavaScript
-- Frameworks como React e Vue.js
-- Ferramentas de otimização SEO
+- HTML5 / CSS3 / SCSS / JavaScript
+- Ambiente de Icones: Lucide
 - Integração com APIs
+- Ferramentas de otimização SEO
 
 ## Projetos
 Aqui você encontra uma variedade de landing pages e sites desenvolvidos sob medida para nossos clientes. Cada projeto é desenvolvido com atenção aos detalhes e com o objetivo de maximizar as taxas de conversão.
