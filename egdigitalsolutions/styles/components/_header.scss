@@ -9,6 +9,9 @@ header {
 
     align-items: center;
     justify-content: center;
+    position: fixed;
+
+    z-index: 1;
 
     section#logoContainer {
         height: 100%;

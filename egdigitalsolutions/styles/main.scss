@@ -1,15 +1,19 @@
 @use "./hooks/reset" as *;
+@use "./hooks/separators" as *;
 @use "./components/header" as *;
 @use "./sections/banner" as *;
+@use "./sections/cards" as *;
 
 html, body {
     background-image: url("../assets/background/rectangle.jpg");
     background-size: 80px;
     background-attachment: fixed;
 
-    height: 100vh;
+    height: 500vh;
     width: 100vw;
     display: flex;
+
+    align-items: center;
 
     flex-direction: column;
     color: white;

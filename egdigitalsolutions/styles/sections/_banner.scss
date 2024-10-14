@@ -1,15 +1,17 @@
-article {
-    height: 60vh;
+    article#bannerContainer {
+        height: 500px;
+        width: 100vw;
+        display: flex;
 
-    section#bannerContainer {
-        height: 400px;
-        margin: 30px;
+        margin-top: 10vh;
 
-        border-radius: 10px;
-        background-image: url("../assets/Banners/promocao.png");
-        background-size: cover;
-
-        background-position: center;
-        border: 1px solid white;
+        section#banner {
+            height: 100%;
+            width: 100%;
+            background-image: url("../assets/Banners/promocao.png");
+            
+            background-size: cover;
+            background-position: center;
+            border-bottom: 1px solid white;
+        }
     }
-}
