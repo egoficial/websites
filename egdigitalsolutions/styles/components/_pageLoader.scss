@@ -1,0 +1,92 @@
+section#loaderContainer {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .spinner {
+        width: 70.4px;
+        height: 70.4px;
+        --clr: white;
+        --clr-alpha: rgb(255, 255, 2555,.2);
+        animation: spinner 1.6s infinite ease;
+        transform-style: preserve-3d;
+
+        div {
+            background-color: var(--clr-alpha);
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            border: 3.5px solid var(--clr);
+
+            &:nth-of-type(1) {
+                transform: translateZ(-35.2px) rotateY(180deg);
+            }
+
+            &:nth-of-type(2) {
+                transform: rotateY(-270deg) translateX(50%);
+                transform-origin: top right;
+            }
+
+            &:nth-of-type(3) {
+                transform: rotateY(270deg) translateX(-50%);
+                transform-origin: center left;
+            }
+            
+            &:nth-of-type(4) {
+                transform: rotateX(90deg) translateY(-50%);
+                transform-origin: top center;
+            }
+            
+            &:nth-of-type(5) {
+                transform: rotateX(-90deg) translateY(50%);
+                transform-origin: bottom center;
+            }
+            
+            &:nth-of-type(6) {
+                transform: translateZ(35.2px);
+            }
+
+            @keyframes spinner {
+                0% {
+                transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+                }
+            
+                50% {
+                transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+                }
+            
+                100% {
+                transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+                }
+            }
+        }
+    }
+
+    p {
+        margin-top: 50px;
+        font-size: 1.5em;
+        font-weight: bolder;
+
+        animation: textBLink 1s infinite;
+
+        @keyframes textBLink {
+            0% {
+                color: white;
+            }
+            50% {
+                color: rgba(255, 255, 255, 0);
+            }
+            100% {
+                color: white;
+            }
+        }
+    }
+}
