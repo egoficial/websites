@@ -1,6 +1,7 @@
 @use "./hooks/reset" as *;
 @use "./hooks/separators" as *;
 @use "./components/header" as *;
+@use "./components/cookies" as *;
 @use "./sections/banner" as *;
 @use "./sections/cards" as *;
 

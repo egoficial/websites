@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- scripts -->
-
     <!-- title -->
     <title>E.G Digital Solutionsᵗᵐ</title>
 
@@ -26,10 +24,27 @@
     <link rel="shortcut icon" href="./assets/icons/logo.svg" type="image/svg">
 </head>
 <body>
+    <!-- cookiesContainer -->
+    <div class="cookiesContainer">
+        <p class="cookie-heading">Política de Cookies</p>
+        <p class="cookie-para">Este site utiliza Cookies para uma melhor experiência.</p>
+        <div class="button-wrapper">
+          <button class="accept cookie-button">Aceitar</button>
+          <button class="reject cookie-button">Rejeitar</button>
+        </div>
+        <button class="exit-button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 162 162" class="svgIconCross">
+            <path stroke-linecap="round" stroke-width="17" stroke="black" d="M9.01074 8.98926L153.021 153"></path>
+            <path stroke-linecap="round" stroke-width="17" stroke="black" d="M9.01074 153L153.021 8.98926"></path>
+          </svg>
+        </button>
+      </div>
+      <!-- header -->
     <header>
         <section id="logoContainer">
             <img src="./assets/icons/logoSimple.svg" alt="">
         </section>
+        <!-- linksContainer -->
         <section id="linksContainer">
             <ul>
                 <li>INICIO</li>
@@ -38,6 +53,7 @@
                 <li>CONTATO</li>
             </ul>
         </section>
+        <!-- socialContainer -->
         <section id="socialContainer">
             <ul>
                 <li><a href="https://www.instagram.com/" target="_blank"><img src="./assets/icons/instagram.svg" alt=""></a></li>
@@ -45,12 +61,14 @@
             </ul>
         </section>
     </header>
+    <!-- bannerContainer -->
     <article id="bannerContainer">
         <section id="banner"></section>
     </article>
 
     <div class="smallSeparator"></div>
 
+    <!-- cardsContainer -->
     <section id="cardsContainer">
         <div class="container">
             <div class="card1"></div>
@@ -73,8 +91,12 @@
 
     <div class="mediumSeparator"></div>
 
+    <!-- servicesContainer -->
     <section id="servicesContainer">
 
     </section>
+
+    <!-- scripts -->
+    <script src="./scripts/requirements/cookies.js"></script>
 </body>
 </html>
